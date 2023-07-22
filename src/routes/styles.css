@@ -1,0 +1,30 @@
+@import 'https://api.fontshare.com/v2/css?f[]=nippo@700,400&display=swap';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: ease all .2s linear;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	font-family: 'Nippo', sans-serif;
+	background: hsl(256, 16%, 4%);
+	color: hsl(256, 16%, 80%);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	transition: color .2s linear;
+}
+a:hover {
+	color: #fff;
+}
+
+br {
+	display: block;
+	height: 1rem;
+}
